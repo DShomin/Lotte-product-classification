@@ -37,7 +37,8 @@
 새롭게 정의한 문제들은 단순한 image classification으로는 한계가 있다고 판단하였고 위 특징을 갖고 있는 이미지 검색(image retrieval)문제로 재해석하여 model architecture를 새롭게 구성하게 되었습니다.
 
 ![imgs/Untitled.png](imgs/Untitled.png)
-(figure 1. image retrieval)
+(figure 1. image retrieval) 
+reference link(https://medium.com/sicara/keras-tutorial-content-based-image-retrieval-convolutional-denoising-autoencoder-dc91450cc511)
 
 최근 review 했던 kaggle의 [Google Landmark Recognition 2020](https://www.kaggle.com/c/landmark-recognition-2020/rules)와 dacon [랜드마크 분류 AI 경진대회](https://dacon.io/competitions/official/235585/overview/description/)를 참고하여 작업을 진행하였습니다.
 
