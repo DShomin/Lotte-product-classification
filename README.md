@@ -38,7 +38,7 @@
 
 ![imgs/Untitled.png](imgs/Untitled.png)
 (figure 1. image retrieval) 
-reference link(https://medium.com/sicara/keras-tutorial-content-based-image-retrieval-convolutional-denoising-autoencoder-dc91450cc511)
+[reference link](https://medium.com/sicara/keras-tutorial-content-based-image-retrieval-convolutional-denoising-autoencoder-dc91450cc511)
 
 최근 review 했던 kaggle의 [Google Landmark Recognition 2020](https://www.kaggle.com/c/landmark-recognition-2020/rules)와 dacon [랜드마크 분류 AI 경진대회](https://dacon.io/competitions/official/235585/overview/description/)를 참고하여 작업을 진행하였습니다.
 
