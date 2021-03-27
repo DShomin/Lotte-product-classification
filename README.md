@@ -1,11 +1,11 @@
 # Product classification
-**Vision AI 경진대회(채용연계)**
+**[Vision AI 경진대회(채용연계)](https://megaproduct.lotte.net/competitionSummary/6)**
 - resource : 2080ti
 - 주최/주관 : 롯데정보통신
 - https://megaproduct.lotte.net/competitionSummary/6
 
 # Solution
-[개요](https://megaproduct.lotte.net/competitionSummary/6)
+
 
 - 문제 정의
 
