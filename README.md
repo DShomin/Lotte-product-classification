@@ -88,7 +88,7 @@ python run.py -C conf_5
 ```
 
 # inference
-model weight file download [link] (https://drive.google.com/drive/folders/1OMYSN8Za9URVVYeqoUKqq82ti6hpkinj?usp=sharing)
+model weight file download [[link]](https://drive.google.com/drive/folders/1OMYSN8Za9URVVYeqoUKqq82ti6hpkinj?usp=sharing)
 ```
 ~/notebook/infer.ipynb
 ```
