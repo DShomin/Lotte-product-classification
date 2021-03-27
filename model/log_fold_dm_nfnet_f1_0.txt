@@ -1,0 +1,1 @@
+Sun Mar 21 15:12:48 2021 Fold 0, Epoch 2, lr: 0.0020000, train loss: 6.94973, valid loss: 11053.15430, val_gap: 0.9735
