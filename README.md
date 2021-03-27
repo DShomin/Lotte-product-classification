@@ -49,6 +49,7 @@
     - GeM(Generalized mean) pooling layer
 
         ![(imgs/Untitled%201.png](imgs/Untitled%201.png)
+        
         (figure 2. GeM)
 
 - Optimizer
