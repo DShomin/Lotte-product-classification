@@ -4,9 +4,6 @@
 - 주최/주관 : 롯데정보통신
 
 
-# Solution
-
-
 - 문제 정의
 
     총 120000개의 이미지를 1000개 상품 종류로 분류하는 작업
@@ -18,6 +15,8 @@
     test data 72000장 (1000 클래스 * 72개 = 72000)
 
     (sample image를 업로드 하고 싶지만 데이터 저작권에 위배되는 사항이라 업로드하지 못한점 양해부탁드립니다.)
+    
+# Competition storyline
 
 1. 문제 정의를 보았을 때 단순히 classification 문제로 풀면 될 것 같아 보여 pre-trained cnn model을 이용하여 cross entropy로 classification 진행
 2. validation score가 높게 나와 쉽게 해결을 할 수 있을 것이라고 생각했지만 submit 결과가 75점으로 좋지 않음
@@ -32,6 +31,7 @@
 1. **train dataset과 test dataset이 상이함**
 2. **class 별 데이터가 매우 작음** 
 
+# Solution
 
 class 별 데이터가 매우 작아 model이 feature를 잘 찾기 위해서는 데이터들을 pair로 하여 서로의 차이점 기반으로 train을 하면 더 좋을 것 같아 few shot learning 및 triplet loss를 생각했지만 이전에 이미지 검색(image retrieval) 문제로 풀게되면 더욱 좋을 것다고 판단하여 이미지 검색을 하는 방법으로 해석했습니다.
 
