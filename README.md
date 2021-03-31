@@ -69,6 +69,62 @@ class 별 데이터가 매우 작아 model이 feature를 잘 찾기 위해서는
         - feature L2 Normalize
         - **train/test feature similarity** 계산
 
+# workspace file and directory statement
+```
+├── data
+│   ├── sample.csv
+│   ├── test
+│   ├── train
+│   └── train.csv
+├── imgs
+│   ├── Untitled 1.png
+│   └── Untitled.png
+├── model
+│   ├── dm_nfnet_f0_best_fold_0.pth
+│   ├── dm_nfnet_f0_best_fold_1.pth
+│   ├── dm_nfnet_f0_best_fold_2.pth
+│   ├── dm_nfnet_f0_best_fold_3.pth
+│   ├── dm_nfnet_f0_best_fold_4.pth
+│   ├── dm_nfnet_f1_best_fold_0.pth
+│   ├── log_fold_dm_nfnet_f0_0.txt
+│   ├── log_fold_dm_nfnet_f0_1.txt
+│   ├── log_fold_dm_nfnet_f0_2.txt
+│   ├── log_fold_dm_nfnet_f0_3.txt
+│   ├── log_fold_dm_nfnet_f0_4.txt
+│   ├── log_fold_dm_nfnet_f1_0.txt
+│   ├── log_fold_tf_efficientnet_b1_ns_0.txt
+│   ├── log_fold_tf_efficientnet_b1_ns_1.txt
+│   ├── log_fold_tf_efficientnet_b1_ns_2.txt
+│   ├── log_fold_tf_efficientnet_b1_ns_3.txt
+│   ├── log_fold_tf_efficientnet_b1_ns_4.txt
+│   ├── tf_efficientnet_b1_ns_best_fold_0.pth
+│   ├── tf_efficientnet_b1_ns_best_fold_1.pth
+│   ├── tf_efficientnet_b1_ns_best_fold_2.pth
+│   ├── tf_efficientnet_b1_ns_best_fold_3.pth
+│   └── tf_efficientnet_b1_ns_best_fold_4.pth
+├── notebook
+│   └── infer.ipynb
+├── README.md
+└── src
+    ├── conf_1_nf0.py
+    ├── conf_1.py
+    ├── conf_2_nf0.py
+    ├── conf_2.py
+    ├── conf_3_nf0.py
+    ├── conf_3.py
+    ├── conf_4_nf0.py
+    ├── conf_4.py
+    ├── conf_5_nf0.py
+    ├── conf_5.py
+    ├── conf.py
+    ├── loader.py
+    ├── loss.py
+    ├── models.py
+    ├── run.py
+    ├── scheduler.py
+    └── trainer.py
+```
+
 # train
 To train a model, please run src/run.py with a config file as flag:
 ```
